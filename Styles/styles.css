@@ -1,0 +1,72 @@
+.h1, h2{
+    font-family: young serif;
+    color: rgb(94, 27, 27);
+}
+body {
+    font-family: outfit, sans-serif;
+    background-color: rgb(254, 230, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.recipe-header img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.recipe-header p {
+    color: #666;
+}
+.preparation-time {
+    background-color: rgb(254, 232, 240);
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    align-self: center;
+    width: 500px;
+}
+
+.ingredients, .instructions, .nutrition {
+    margin-top: 20px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions ol li {
+    margin-top: 10px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition table td {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 2% 4%;
+}
+
+.nutrition table td:first-child {
+    text-align: left;
+}
+  
